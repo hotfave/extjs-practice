@@ -1,0 +1,82 @@
+.header{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	font-color:white !important;
+	margin-right: 10px
+}
+.header-LiveView{
+	background-image:url(../img/preview.png)!important;
+	position: relative;
+	top:10px;
+}
+.header_PlayBack{
+	background-image:url(../img/playback.png)!important;
+	position: relative;
+	top:10px;
+}
+.header_Setting{
+	background-image:url(../img/setting.png)!important;
+	position: relative;
+	top:10px;
+}
+.header_Backup{
+	background-image:url(../img/backup.png)!important;
+    position: relative;
+	top:10px;
+}	
+
+.fontstyle{
+	color: #fff;
+	background: #3a3a3a;
+	line-height: 60px;
+	font-size: 18px;
+	position: relative;
+	bottom:25px;
+	white-space:nowrap;
+	padding: 10px;
+	cursor:pointer;
+}
+.fontstyle.active{
+	background: #95021a;
+}
+
+.dataviewtitle{
+	 font-size:15px;
+	 color:white;
+	 background:#ff99cc;
+	 padding:20px;
+	 margin:0px;
+	 position: relative;
+	 bottom: 12px
+}
+
+.huanfu{
+	font-size: 36px !important;
+	color: #fff;
+	background:#3a3a3a;
+	margin:0;
+	padding: 40px;
+	position: relative;
+	bottom: 28px;
+	/*margin:12px auto 12px 30px !important;
+	margin-left: 10px;*/
+	cursor: pointer;
+}
+.one{
+	 font-size:25px;
+	 color:white;
+	 margin: 0;
+	 padding: 22px; 
+	 background: #3a3a3a
+}
+.two{
+	margin: 0;
+	padding: 50px;
+	 background: #3a3a3a
+}
+.three{
+	margin: 0;
+	padding: 50px;
+	 background: #3a3a3a
+}

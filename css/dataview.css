@@ -1,0 +1,57 @@
+.container{
+    background:white;
+	color:black;
+	border-bottom: 2px solid #e8e8e8 ;
+	font-size:15px;  
+}
+.information{
+	height: 0;
+}
+.arrow{
+	font-size: 20px !important;
+	margin-left: 10px;
+	margin-top: 15px
+	
+}
+.list_right{
+	background: url(../img/xiala.png) no-repeat;
+	padding: 18px;
+	float: right;
+	position: relative;
+	top: 8px
+}
+.title{
+	padding: 10px;
+	position: absolute;
+    left:30px;
+
+}
+.ip{
+	font-size: 10px;
+	position: relative;
+	top:10px;
+	left: 19px;
+	color:#999999;
+
+}
+.items{  
+    margin-top:48px;
+  	margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+    transition:all 0.5s;
+}
+.items > li{
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+	list-style-type: none;
+
+}
+
+.x-view-item-focused {
+    outline:0px !important;
+}
+.x-panel-body-default{
+	border: none !important;
+}
